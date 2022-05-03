@@ -1,5 +1,14 @@
 {
   "private": true,
+  "name": "gabrielcaiana.com",
+  "author": "Gabriel Caiana Guedes",
+  "version": "0.0.0",
+  "description": "This is the new version of my site using nuxt 3",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabrielcaiana/gabrielcaiana.com-nuxt3"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
