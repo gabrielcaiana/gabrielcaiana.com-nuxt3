@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     head: {
       title: 'Gabriel Caiana - Website',
       htmlAttrs: {
-        lang: 'en',
+        lang: 'pt-br',
       },
       meta: [
         { charset: 'utf-8' },
