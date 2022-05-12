@@ -25,7 +25,7 @@ export default defineNuxtConfig({
     continuous: true,
   },
 
-  css: ['@/assets/css/styles.css'],
+  css: ['@/assets/css/styles.css', '@/assets/app.css'],
   build: {
     postcss: {
       postcssOptions: require('./postcss.config.js'),
