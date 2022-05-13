@@ -14,7 +14,7 @@
       </p>
     </div>
 
-    <!-- <AppHeader /> -->
+    <AppHeader />
 
     <transition name="fade" mode="out-in">
       <main>
@@ -34,6 +34,8 @@
 import feather from 'feather-icons'
 import { computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
+import AppHeader from '@/components/shared/appHeader.vue'
+import AppFooter from '@/components/shared/appFooter.vue'
 
 const route = useRoute()
 
