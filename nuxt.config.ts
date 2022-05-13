@@ -18,18 +18,14 @@ export default defineNuxtConfig({
     },
   },
 
-  loading: {
-    color: 'green',
-    height: '5px',
-    failedColor: 'red',
-    continuous: true,
-  },
-
   css: ['@/assets/css/styles.css', '@/assets/app.css'],
+
+  dirs: ['~/components'],
+
   build: {
     postcss: {
       postcssOptions: require('./postcss.config.js'),
     },
   },
-  buildModules: ['@nuxtjs/eslint-module'],
+  buildModules: ['@nuxtjs/eslint-module', '@pinia/nuxt', '@nuxtjs/color-mode'],
 })
