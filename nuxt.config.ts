@@ -27,5 +27,15 @@ export default defineNuxtConfig({
       postcssOptions: require('./postcss.config.js'),
     },
   },
+
   buildModules: ['@nuxtjs/eslint-module', '@pinia/nuxt', '@nuxtjs/color-mode'],
+
+  // @ts-ignore
+  colorMode: {
+    preference: 'dark',
+    fallback: 'system',
+    hid: 'nuxt-color-mode-script',
+    globalName: '__NUXT_COLOR_MODE__',
+    classSuffix: '',
+  },
 })
