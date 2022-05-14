@@ -2,7 +2,7 @@
   <div class="container mx-auto">
     <AppBanner />
 
-    <!-- <ProjectsGrid /> -->
+    <ProjectsGrid />
 
     <div class="mt-5 sm:mt-14 flex justify-center">
       <NuxtLink
