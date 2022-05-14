@@ -152,7 +152,7 @@
 import { ref } from 'vue'
 import HireMeModal from '../HireMeModal.vue'
 import AppNavigation from './AppNavigation.vue'
-import { useCategories } from '@/stores/categories'
+import { useCategories } from '@/store/categories'
 const colorMode = useColorMode()
 
 const { categories } = useCategories()

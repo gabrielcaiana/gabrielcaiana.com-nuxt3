@@ -29,7 +29,7 @@
 
 <script setup>
 import FooterCopyright from './FooterCopyright.vue'
-import { useSocialProfile } from '@/stores/socialProfile'
+import { useSocialProfile } from '@/store/socialProfile'
 import BaseIcon from '@/components/reusable/BaseIcon.vue'
 
 const { socialProfile } = useSocialProfile()

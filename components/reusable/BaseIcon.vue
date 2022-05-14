@@ -7,26 +7,27 @@
   ></i>
 </template>
 
-<script setup>
+<script>
 import feather from 'feather-icons'
-import { defineProps, onMounted, onUpdated } from 'vue'
 
-defineProps({
-  name: {
-    type: String,
-    default: null,
+export default {
+  name: 'BaseIcon',
+  props: {
+    name: {
+      type: String,
+      default: null,
+    },
+    size: {
+      type: String,
+      default: '24',
+    },
   },
-  size: {
-    type: String,
-    default: '24',
+
+  mounted() {
+    feather.replace()
   },
-})
-
-onMounted(() => {
-  feather.replace()
-})
-
-onUpdated(() => {
-  feather.replace()
-})
+  updated() {
+    feather.replace()
+  },
+}
 </script>
