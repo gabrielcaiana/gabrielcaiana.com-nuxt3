@@ -42,6 +42,19 @@ Open test coverage detailed report:
 yarn jest:coverage
 ```
 
+## migration process
+
+- [x] Header
+- [x] Footer
+- [x] Color Mode
+- [] Home
+- [] About
+- [] Contact
+- [] Blog
+- [] Dialogs
+- [] Forms
+- [] BaaS
+
 ## Commit types
 
 | Commit Type | Title                    | Description                                                                                                 | Emoji |
