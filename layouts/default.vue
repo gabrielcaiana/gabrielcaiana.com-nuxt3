@@ -4,8 +4,11 @@
   >
     <div class="w-full bg-green-500">
       <p class="text-white text-center">
-        Este site foi desenvolvido utilizando o Nuxt.js 3, para saber
-        <a class="underline-offset-1 font-bold" href="https://v3.nuxtjs.org/"
+        Este site foi desenvolvido utilizando o Nuxt.js 3, para visualizar a
+        versão estável com o nuxt.js 2
+        <a
+          class="underline-offset-1 font-bold"
+          href="https://v2.gabrielcaiana.com"
           >clique aqui</a
         >
       </p>
