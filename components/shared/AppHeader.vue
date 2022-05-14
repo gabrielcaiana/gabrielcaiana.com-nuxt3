@@ -16,6 +16,9 @@
             <img v-else src="/logo-dark.svg" alt="Color Logo" class="w-36" />
           </NuxtLink>
         </div>
+        <span class="text-white text-sm bg-white bg-opacity-25 rounded-md p-1"
+          >RC</span
+        >
 
         <button
           class="sm:hidden ml-8 bg-primary-light dark:bg-ternary-dark px-2 py-1.5 sm:px-3 sm:py-2 shadow-sm rounded-xl cursor-pointer"
