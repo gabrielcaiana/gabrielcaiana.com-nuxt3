@@ -58,8 +58,8 @@ defineProps({
 </script>
 
 <style lang="css" scoped>
-#nav .nuxt-link-exact-active,
-#nav .nuxt-link-active {
+#nav .router-link-exact-active,
+#nav .router-link-active {
   @apply text-green-400 dark:text-green-400;
 }
 </style>
