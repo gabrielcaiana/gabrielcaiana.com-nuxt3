@@ -2,13 +2,10 @@
   <div
     class="bg-secondary-light dark:bg-primary-dark min-h-screen flex flex-col"
   >
-    <div v-if="headerVersion" class="w-full bg-green-500">
+    <div class="w-full bg-green-500">
       <p class="text-white text-center">
-        Você está visualizando a nova versão do meu site, caso deseje visitar a
-        antiga
-        <a
-          class="underline-offset-1 font-bold"
-          href="https://v1.gabrielcaiana.com"
+        Este site foi desenvolvido utilizando o Nuxt.js 3, para saber
+        <a class="underline-offset-1 font-bold" href="https://v3.nuxtjs.org/"
           >clique aqui</a
         >
       </p>
@@ -31,19 +28,8 @@
 </template>
 
 <script setup>
-import feather from 'feather-icons'
-import { computed, onMounted } from 'vue'
-import { useRoute } from 'vue-router'
 import AppHeader from '@/components/shared/appHeader.vue'
 import AppFooter from '@/components/shared/appFooter.vue'
-
-const route = useRoute()
-
-const headerVersion = computed(() => route.name === 'index')
-
-onMounted(() => {
-  feather.replace()
-})
 </script>
 
 <style lang="scss" scoped>

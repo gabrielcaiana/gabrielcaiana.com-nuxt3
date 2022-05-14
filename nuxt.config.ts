@@ -20,8 +20,6 @@ export default defineNuxtConfig({
 
   css: ['@/assets/css/styles.css', '@/assets/app.css'],
 
-  dirs: ['~/components'],
-
   build: {
     postcss: {
       postcssOptions: require('./postcss.config.js'),
