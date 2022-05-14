@@ -48,7 +48,7 @@ yarn jest:coverage
 - [x] Footer
 - [x] Color Mode
 - [ ] Home
-- [ ] About
+- [x] About
 - [ ] Contact
 - [ ] Blog
 - [ ] Dialogs
