@@ -47,13 +47,13 @@ yarn jest:coverage
 - [x] Header
 - [x] Footer
 - [x] Color Mode
-- [] Home
-- [] About
-- [] Contact
-- [] Blog
-- [] Dialogs
-- [] Forms
-- [] BaaS
+- [ ] Home
+- [ ] About
+- [ ] Contact
+- [ ] Blog
+- [ ] Dialogs
+- [ ] Forms
+- [ ] BaaS
 
 ## Commit types
 
