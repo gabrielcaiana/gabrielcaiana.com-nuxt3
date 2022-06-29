@@ -5,5 +5,18 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'Projetos',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'veja alguns dos projetos que já desenvolvi',
+        },
+      ],
+    }
+  },
+}
 </script>

@@ -1,20 +1,30 @@
 import { defineNuxtConfig } from 'nuxt'
+import global from './utils/global'
+import getSocialMeta from './utils/social-meta'
+const meta = getSocialMeta(global)
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   app: {
     head: {
-      title: 'Gabriel Caiana - Website',
+      titleTemplate: '%s | Website',
       htmlAttrs: {
         lang: 'pt-br',
       },
       meta: [
-        { charset: 'utf-8' },
+        ...meta,
+        { charset: 'utf-8', hid: 'charset' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: '' },
         { name: 'format-detection', content: 'telephone=no' },
+        { name: 'apple-mobile-web-app-capable', content: 'yes' },
       ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }],
+      link: [
+        {
+          rel: 'canonical',
+          href: global.url,
+        },
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+      ],
     },
   },
 

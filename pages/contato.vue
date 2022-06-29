@@ -31,5 +31,18 @@ export default {
       ],
     }
   },
+
+  head() {
+    return {
+      title: 'Contato',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Fale comigo por email ou por alguma rede social',
+        },
+      ],
+    }
+  },
 }
 </script>

@@ -6,4 +6,19 @@
   </div>
 </template>
 
-<script setup></script>
+<script>
+export default {
+  head() {
+    return {
+      title: 'Blog',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Leia os artigos que já escrevi',
+        },
+      ],
+    }
+  },
+}
+</script>

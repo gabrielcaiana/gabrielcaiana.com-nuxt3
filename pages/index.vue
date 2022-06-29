@@ -16,4 +16,19 @@
   </div>
 </template>
 
-<script setup></script>
+<script>
+export default {
+  head() {
+    return {
+      title: 'Início',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Bem vindo ao meu site pessoal',
+        },
+      ],
+    }
+  },
+}
+</script>
