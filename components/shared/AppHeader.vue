@@ -4,7 +4,7 @@
       class="z-10 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between sm:items-center py-6"
     >
       <div class="flex justify-between items-center px-6 sm:px-0">
-        <div>
+        <div class="flex items-center">
           <NuxtLink to="/">
             <img
               v-if="$colorMode.value == 'dark'"
@@ -15,10 +15,12 @@
 
             <img v-else src="/logo-dark.svg" alt="Color Logo" class="w-36" />
           </NuxtLink>
+
+          <span
+            class="text-white text-sm bg-white bg-opacity-25 rounded-md p-1 h-7"
+            >RC</span
+          >
         </div>
-        <span class="text-white text-sm bg-white bg-opacity-25 rounded-md p-1"
-          >RC</span
-        >
 
         <button
           class="sm:hidden ml-8 bg-primary-light dark:bg-ternary-dark px-2 py-1.5 sm:px-3 sm:py-2 shadow-sm rounded-xl cursor-pointer"
