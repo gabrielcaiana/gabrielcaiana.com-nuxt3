@@ -20,7 +20,7 @@ export default defineNuxtConfig({
 
   components: [{ path: '@/components', pathPrefix: false }],
 
-  css: ['@/assets/css/styles.css', '@/assets/app.css'],
+  css: ['@/assets/css/styles.css', '@/assets/app.css', '@/assets/main.css'],
 
   build: {
     postcss: {
