@@ -76,8 +76,6 @@
 <script setup>
 import { computed, ref } from 'vue'
 import { useRoute } from 'vue-router'
-import BaseIcon from '@/components/reusable/BaseIcon.vue'
-import ProjectsFilter from '@/components/projects/projectsFilter.vue'
 import { useProjects } from '~/store/projects'
 const { projects } = useProjects()
 

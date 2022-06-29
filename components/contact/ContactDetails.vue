@@ -32,9 +32,6 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue'
-import BaseIcon from '@/components/reusable/BaseIcon.vue'
-
 defineProps({
   contacts: {
     type: Array,

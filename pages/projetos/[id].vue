@@ -128,8 +128,6 @@
 <script setup>
 import { ref, computed } from 'vue'
 import { useRoute } from 'vue-router'
-import BaseIcon from '@/components/reusable/BaseIcon.vue'
-import AppModal from '@/components/shared/AppModal.vue'
 import { useProjects } from '~/store/projects'
 
 const route = useRoute()

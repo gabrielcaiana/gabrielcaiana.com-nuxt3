@@ -2,18 +2,6 @@
   <div
     class="bg-secondary-light dark:bg-primary-dark min-h-screen flex flex-col"
   >
-    <div class="w-full bg-green-500">
-      <p class="text-white text-center">
-        Este site foi desenvolvido utilizando o Nuxt.js 3, para visualizar a
-        versão estável com o nuxt.js 2
-        <a
-          class="underline-offset-1 font-bold"
-          href="https://v2.gabrielcaiana.com"
-          >clique aqui</a
-        >
-      </p>
-    </div>
-
     <AppHeader />
 
     <transition name="fade" mode="out-in">
@@ -30,9 +18,10 @@
   </div>
 </template>
 
-<script setup>
-import AppHeader from '@/components/shared/appHeader.vue'
-import AppFooter from '@/components/shared/appFooter.vue'
+<script>
+export default {
+  name: 'App',
+}
 </script>
 
 <style lang="scss" scoped>

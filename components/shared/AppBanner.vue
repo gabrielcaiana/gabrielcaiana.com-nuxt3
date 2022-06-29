@@ -41,6 +41,4 @@
   </section>
 </template>
 
-<script setup>
-import BaseIcon from '@/components/reusable/BaseIcon.vue'
-</script>
+<script setup></script>

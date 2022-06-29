@@ -18,6 +18,8 @@ export default defineNuxtConfig({
     },
   },
 
+  components: [{ path: '@/components', pathPrefix: false }],
+
   css: ['@/assets/css/styles.css', '@/assets/app.css'],
 
   build: {

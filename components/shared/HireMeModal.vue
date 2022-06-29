@@ -108,10 +108,8 @@
 </template>
 
 <script setup>
-import { defineProps, reactive } from 'vue'
+import { reactive } from 'vue'
 // import emailjs from '@emailjs/browser'
-import Button from './reusable/Button.vue'
-import BaseIcon from '@/components/reusable/BaseIcon.vue'
 
 const form = reactive({
   name: '',

@@ -28,9 +28,6 @@
 </template>
 
 <script setup>
-import FooterCopyright from './FooterCopyright.vue'
 import { useSocialProfile } from '@/store/socialProfile'
-import BaseIcon from '@/components/reusable/BaseIcon.vue'
-
 const { socialProfile } = useSocialProfile()
 </script>

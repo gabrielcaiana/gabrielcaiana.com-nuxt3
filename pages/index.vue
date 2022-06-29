@@ -16,7 +16,4 @@
   </div>
 </template>
 
-<script setup>
-import AppBanner from '../components/shared/AppBanner.vue'
-import Button from '../components/reusable/Button.vue'
-</script>
+<script setup></script>

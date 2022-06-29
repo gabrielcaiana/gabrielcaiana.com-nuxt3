@@ -98,7 +98,6 @@
 <script setup>
 // import emailjs from '@emailjs/browser'
 import { ref } from 'vue'
-import Button from '../reusable/Button.vue'
 
 const form = ref({
   name: '',
